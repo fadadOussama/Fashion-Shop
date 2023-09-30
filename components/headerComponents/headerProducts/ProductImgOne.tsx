@@ -21,7 +21,7 @@ export default async function ProductImgOne() {
         />
 
         <Image
-          src="/menOne_Back.jpg"
+          src="/menOne_back.jpg"
           alt=""
           fill
           className="absolute inset-0 object-cover opacity-0 group-hover:opacity-100 transition duration-500"
