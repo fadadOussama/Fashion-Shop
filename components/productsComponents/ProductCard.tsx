@@ -16,7 +16,7 @@ export default async function ProductCard({ product, segment }: Props) {
             <Image
               src={product.images[0]}
               fill
-              sizes="50vw"
+              sizes="30vw"
               alt="product image"
               className="block object-cover opacity-100 group-hover:opacity-0 transition duration-500"
               priority
@@ -25,7 +25,7 @@ export default async function ProductCard({ product, segment }: Props) {
             <Image
               src={product.images[1]}
               fill
-              sizes="50vw"
+              sizes="30vw"
               alt="product image"
               className="block object-cover opacity-0 group-hover:opacity-100 transition duration-500"
             />
