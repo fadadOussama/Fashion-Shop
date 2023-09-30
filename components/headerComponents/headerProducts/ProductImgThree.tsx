@@ -14,7 +14,7 @@ export default async function ProductImgThree() {
           alt=""
           fill
           className="absolute inset-0 object-cover opacity-100 group-hover:opacity-0 transition duration-500"
-          sizes="30vw"
+          sizes="(min-width: 640px) 30vw, 60vw"
           priority={true}
           blurDataURL={myBlurDataUrlOne}
           placeholder="blur"
@@ -25,7 +25,7 @@ export default async function ProductImgThree() {
           alt=""
           fill
           className="absolute inset-0 object-cover opacity-0 group-hover:opacity-100 transition duration-500"
-          sizes="30vw"
+          sizes="(min-width: 640px) 30vw, 60vw"
           priority={true}
           blurDataURL={myBlurDataUrlTwo}
           placeholder="blur"
