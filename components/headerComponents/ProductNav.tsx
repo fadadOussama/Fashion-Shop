@@ -16,10 +16,10 @@ export default function ProductNav({ children }: Props) {
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger className="flex items-center">
-            <li className="navLink">PRODUCTS</li>
+            <div className="navLink">PRODUCTS</div>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid grid-cols-3 grid-rows-1 gap-4 p-6 customScreen z-50">{children}</ul>
+            <div className="grid grid-cols-3 grid-rows-1 gap-4 p-6 customScreen z-50">{children}</div>
           </NavigationMenuContent>
         </NavigationMenuItem>
       </NavigationMenuList>

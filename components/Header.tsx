@@ -25,7 +25,7 @@ export default function Header() {
 
           <div className="hidden md:block">
             <nav aria-label="Global">
-              <ul className="flex items-center gap-6 text-sm">
+              <div className="flex items-center gap-6 text-sm">
                 <ProductNav>
                   <NavigationMenuLink asChild>
                     <div>
@@ -45,17 +45,15 @@ export default function Header() {
                     </div>
                   </NavigationMenuLink>
                 </ProductNav>
-                <li>
-                  <Link className="navLink" href="/men">
-                    MEN
-                  </Link>
-                </li>
-                <li>
-                  <Link className="navLink" href="/women">
-                    WOMEN
-                  </Link>
-                </li>
-              </ul>
+
+                <Link className="navLink" href="/men">
+                  MEN
+                </Link>
+
+                <Link className="navLink" href="/women">
+                  WOMEN
+                </Link>
+              </div>
             </nav>
           </div>
 
