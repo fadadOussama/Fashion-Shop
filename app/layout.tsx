@@ -41,8 +41,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <ClerkProvider>
-      <html lang="en">
+    <html lang="en">
+      <ClerkProvider>
         <body
           suppressHydrationWarning
           className={`${futura.className} text-mainColor overflow-x-hidden scrollbar-thumb-mainColor/20 scrollbar-track-white scrollbar-thin hover:scrollbar-thumb-mainColor/30 scroll-smooth`}
@@ -56,7 +56,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </RtkProvider>
           </ToastProvider>
         </body>
-      </html>
-    </ClerkProvider>
+      </ClerkProvider>
+    </html>
   );
 }

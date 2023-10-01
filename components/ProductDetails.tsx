@@ -33,10 +33,10 @@ export default function ProductDetails({ product, segment }: Props) {
           modules={[Pagination, Navigation]}
         >
           <SwiperSlide>
-            <Image src={product.images[0]} fill sizes="(min-width: 640px) 30vw, 60vw" alt="product image" className="block object-cover" priority />
+            <Image src={product.images[0]} fill sizes="(min-width: 640px) 30vw, 80vw" alt="product image" className="block object-cover" priority />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={product.images[1]} fill sizes="(min-width: 640px) 30vw, 60vw" alt="product image" className="block object-cover" priority />
+            <Image src={product.images[1]} fill sizes="(min-width: 640px) 30vw, 80vw" alt="product image" className="block object-cover" priority />
           </SwiperSlide>
         </Swiper>
       </div>
