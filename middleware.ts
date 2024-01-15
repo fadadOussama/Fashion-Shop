@@ -5,6 +5,7 @@ export default authMiddleware({
 });
 
 // for specifying protected routes
+
 export const config = {
   matcher: ["/", "/men", "/women", "/signUp", "/signIn"],
 };
